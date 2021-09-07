@@ -14,6 +14,6 @@ use App\Http\Controllers;
 |
 */
 
-Route::get('/', function() {
+Route::get('/', function ($id) {
     echo "Selamat Datang";
     });
